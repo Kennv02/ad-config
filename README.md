@@ -109,8 +109,8 @@ The reason I am doing this is to ensure the Private IP Address of DC-1 doesn't c
 I will explain what is happening in the screenshot. I changed the Private IP Address by doing the following: 
 
 - Opened DC-1 -> Network Settings -> Settings -> IP Configuration -> Private IP address settings -> Change Allocation from Dynamic to Static.
-- Dymanic: Private IP address may change when restarting the VM.
-- Static: Private IP address will remain the same regardless of the VM restarting.
+- **Dymanic:** Private IP address may change when restarting the VM.
+- **Static:** Private IP address will remain the same regardless of the VM restarting.
 
 There is a couple of reasons why I am doing this. 
 
